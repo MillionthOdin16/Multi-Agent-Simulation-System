@@ -1,5 +1,5 @@
 export const OLLAMA_CONFIG = {
-  baseUrl: import.meta.env.VITE_OLLAMA_API_URL || 'http://192.168.86.58:11434',
+  baseUrl: import.meta.env.VITE_OLLAMA_API_URL || 'http://localhost:11434',
   model: import.meta.env.VITE_OLLAMA_MODEL || 'llama2',
   temperature: 0.7,
   maxTokens: 500
